@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #board{
@@ -45,13 +46,29 @@
     border-radius: 8px;
 }
 
+#gameover{
+    background:linear-gradient(purple,yellow) ;
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    padding: 15px;
+    text-align: center;
+    border: 2px black solid;
+}
+
+#restart-info{
+    font-size: 16px;
+    font-weight: bold;
+}
+
 #scoreBox{
     position: absolute;
     top: 9px;
     right: 200px;
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
+    margin: 10px;
 }
 
 #hiscoreBox{
@@ -60,5 +77,5 @@
     right: 70px;
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
+    margin: 20px;
 }
